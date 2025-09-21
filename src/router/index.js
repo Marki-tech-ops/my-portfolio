@@ -1,0 +1,37 @@
+import { createRouter, createWebHistory } from 'vue-router'
+
+const Home = () => import('/src/components/HeroSection.vue');
+const About = () => import('/src/components/Aboutme.vue');
+const Projects = () => import('/src/components/Project.vue');
+const Contact = () => import('/src/components/Contact.vue');
+
+// import Home from './pages/Home.vue';
+// import Company from '../pages/Company.vue';
+
+const router = createRouter({
+    history: createWebHistory(),
+    routes: [
+        {
+            path: '/',
+            component: Home,
+            name: 'Home',
+        },
+        {
+            path: '/About',
+            component: About,
+            name: 'About',
+        },
+        {
+            path: '/Project',
+            component: Projects,
+            name: 'Project',
+        },
+        {
+            path: '/Contact',
+            component: Contact,
+            name: 'Contact',
+        },
+    ]
+});
+
+export default router;
