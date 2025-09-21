@@ -42,32 +42,32 @@ function closeImage() {
 
 const images = [
   {
-    src: '/src/assets/Screenshot 2025-09-05 225005.png',
+    src: '/src/assets/1.png',
     title: 'Goldenarrow Head',
     description: 'Manpower Agency Website',
   },
   {
-    src: '/src/assets/Screenshot 2025-09-20 110851.png',
+    src: '/src/assets/6.png',
     title: 'Goldenarrow Head',
     description: 'Manpower Agency Website',
   },
   {
-    src: '/src/assets/Screenshot 2025-09-20 000122.png',
+    src: '/src/assets/5.png',
     title: 'Goldenarrow Head',
     description: 'Manpower Agency Website',
   },
   {
-    src: '/src/assets/Screenshot 2025-09-05 225327.png',
+    src: '/src/assets/2.png',
     title: 'CSPN',
     description: 'Construction and Architecture Website',
   },
   {
-    src: '/src/assets/Screenshot 2025-09-05 225448.png',
+    src: '/src/assets/3.png',
     title: 'CSPN',
     description: 'Construction and Architecture Website',
   },
   {
-    src: '/src/assets/Screenshot 2025-09-19 235703.png',
+    src: '/src/assets/4.png',
     title: 'CSPN',
     description: 'Construction and Architecture Website',
   },
