@@ -12,22 +12,22 @@ const router = createRouter({
     history: createWebHistory(),
     routes: [
         {
-            path: '/',
+            path: '/my-portfolio/',
             component: Home,
             name: 'Home',
         },
         {
-            path: '/About',
+            path: '/my-portfolio/About',
             component: About,
             name: 'About',
         },
         {
-            path: '/Project',
+            path: '/my-portfolio/Project',
             component: Projects,
             name: 'Project',
         },
         {
-            path: '/Contact',
+            path: '/my-portfolio/Contact',
             component: Contact,
             name: 'Contact',
         },
