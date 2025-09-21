@@ -76,10 +76,10 @@ const drawer = ref(false);
 
 
 const items = [
-  { title: 'Home', path: '/my-portfolio/' },
-  { title: 'About', path: '/my-portfolio/about' },
-  { title: 'Projects', path: '/my-portfolio/Project' },
-  { title: 'Contact', path: '/my-portfolio/contact' }
+  { title: 'Home', path: '/Hero' },
+  { title: 'About', path: '/About' },
+  { title: 'Projects', path: '/Project' },
+  { title: 'Contact', path: '/Contact' }
 ];
 
 
