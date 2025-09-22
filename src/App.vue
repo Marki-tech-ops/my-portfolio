@@ -76,7 +76,7 @@ const drawer = ref(false);
 
 
 const items = [
-  { title: 'Home', path: '/Hero' },
+  { title: 'Home', path: '/' },
   { title: 'About', path: '/About' },
   { title: 'Projects', path: '/Project' },
   { title: 'Contact', path: '/Contact' }
