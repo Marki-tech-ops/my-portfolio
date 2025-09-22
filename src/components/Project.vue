@@ -28,6 +28,14 @@
 <script setup>
 import { ref } from 'vue'
 
+// ✅ Import images directly so Vite includes them in /dist
+import img1 from '@/assets/1.png'
+import img6 from '@/assets/6.png'
+import img5 from '@/assets/5.png'
+import img2 from '@/assets/2.png'
+import img3 from '@/assets/3.png'
+import img4 from '@/assets/4.png'
+
 const showModal = ref(false)
 const modalSrc = ref('')
 
@@ -42,37 +50,38 @@ function closeImage() {
 
 const images = [
   {
-    src: '/src/assets/1.png',
+    src: img1,
     title: 'Goldenarrow Head',
     description: 'Manpower Agency Website',
   },
   {
-    src: '/src/assets/6.png',
+    src: img6,
     title: 'Goldenarrow Head',
     description: 'Manpower Agency Website',
   },
   {
-    src: '/src/assets/5.png',
+    src: img5,
     title: 'Goldenarrow Head',
     description: 'Manpower Agency Website',
   },
   {
-    src: '/src/assets/2.png',
+    src: img2,
     title: 'CSPN',
     description: 'Construction and Architecture Website',
   },
   {
-    src: '/src/assets/3.png',
+    src: img3,
     title: 'CSPN',
     description: 'Construction and Architecture Website',
   },
   {
-    src: '/src/assets/4.png',
+    src: img4,
     title: 'CSPN',
     description: 'Construction and Architecture Website',
   },
 ]
 </script>
+
 
 <style scoped>
 .heading {
